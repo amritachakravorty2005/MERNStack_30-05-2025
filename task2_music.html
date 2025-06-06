@@ -1,0 +1,262 @@
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1" name="viewport"/>
+  <title>
+   Music World
+  </title>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <style>
+   @import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap");
+
+    body {
+      background: linear-gradient(
+          135deg,
+          rgba(10, 10, 10, 0.9) 0%,
+          rgba(30, 30, 60, 0.8) 50%,
+          rgba(10, 10, 10, 0.9) 100%
+        ),
+        url("https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?ixlib=rb-4.0.3&auto=format&fit=crop&w=1470&q=80")
+          no-repeat center center fixed;
+      background-size: cover;
+    }
+
+    /* subtle overlay on content containers */
+    .overlay-bg {
+      background: rgba(0, 0, 0, 0.7);
+      backdrop-filter: saturate(180%) blur(8px);
+    }
+  </style>
+ </head>
+ <body class="font-sans text-white">
+  <div class="max-w-full mx-auto p-4 min-h-screen flex flex-col">
+   <!-- Header -->
+   <div class="overlay-bg rounded-md px-6 py-3 mb-4 max-w-full w-full shadow-lg border border-gray-700">
+    <h1 class="text-white text-3xl font-extrabold text-center" style="font-family: 'Alfa Slab One', cursive">
+     Music World
+    </h1>
+   </div>
+   <!-- Navigation -->
+   <nav class="overlay-bg rounded-md px-4 py-2 flex flex-wrap gap-2 max-w-full w-full mb-6 shadow-inner border border-gray-700 justify-center">
+    <button class="bg-gray-800 hover:bg-gray-700 transition text-xs px-3 py-1 rounded-md font-semibold">
+     HOME
+    </button>
+    <button class="bg-gray-800 hover:bg-gray-700 transition text-xs px-3 py-1 rounded-md font-semibold">
+     ABOUT US
+    </button>
+    <button class="bg-gray-800 hover:bg-gray-700 transition text-xs px-3 py-1 rounded-md font-semibold">
+     CATEGORY
+    </button>
+    <button class="bg-gray-800 hover:bg-gray-700 transition text-xs px-3 py-1 rounded-md font-semibold">
+     PRODUCTION
+    </button>
+    <button class="bg-gray-800 hover:bg-gray-700 transition text-xs px-3 py-1 rounded-md font-semibold">
+     GALLERY
+    </button>
+    <button class="bg-gray-800 hover:bg-gray-700 transition text-xs px-3 py-1 rounded-md font-semibold">
+     CONTACT US
+    </button>
+    <button class="bg-gray-800 hover:bg-gray-700 transition text-xs px-3 py-1 rounded-md font-semibold">
+     LOGIN
+    </button>
+   </nav>
+   <!-- Content container -->
+   <main class="overlay-bg rounded-md p-4 max-w-full w-full space-y-8 shadow-lg border border-gray-700 flex-grow overflow-auto">
+    <!-- Latest Album -->
+    <section>
+     <h2 class="font-semibold text-lg mb-4 border-b border-gray-600 pb-1">
+      → Latest Album ...
+     </h2>
+     <div class="flex gap-6 overflow-x-auto py-1 scrollbar-thin scrollbar-thumb-gray-600 scrollbar-track-gray-900">
+      <div class="flex flex-col items-center min-w-[90px]">
+       <img alt="Top Gun: Maverick Soundtrack album cover" class="w-[60px] h-[80px] rounded-md shadow-md" height="80" src="https://storage.googleapis.com/a1aa/image/28482c22-c335-46c8-2043-b31c7c9b5be2.jpg" width="60"/>
+       <span class="mt-2 text-xs text-center max-w-[70px] truncate">
+        Top Gun: Maverick Soundtrack
+       </span>
+      </div>
+      <div class="flex flex-col items-center min-w-[90px]">
+       <img alt="Black Panther: Wakanda Forever album cover" class="w-[60px] h-[80px] rounded-md shadow-md" height="80" src="https://storage.googleapis.com/a1aa/image/7eda0a06-6938-4e34-34d1-28be8d9a8778.jpg" width="60"/>
+       <span class="mt-2 text-xs text-center max-w-[70px] truncate">
+        Black Panther: Wakanda Forever
+       </span>
+      </div>
+      <div class="flex flex-col items-center min-w-[90px]">
+       <img alt="Spider-Man: No Way Home album cover" class="w-[60px] h-[80px] rounded-md shadow-md" height="80" src="https://storage.googleapis.com/a1aa/image/6db357fd-0215-44b3-bea6-8ff2801b80d0.jpg" width="60"/>
+       <span class="mt-2 text-xs text-center max-w-[70px] truncate">
+        Spider-Man: No Way Home
+       </span>
+      </div>
+      <div class="flex flex-col items-center min-w-[90px]">
+       <img alt="Thor: Love &amp; Thunder album cover" class="w-[60px] h-[80px] rounded-md shadow-md" height="80" src="https://storage.googleapis.com/a1aa/image/efa9962c-9d7c-40ed-6185-aa4b4987be76.jpg" width="60"/>
+       <span class="mt-2 text-xs text-center max-w-[70px] truncate">
+        Thor: Love &amp; Thunder
+       </span>
+      </div>
+      <div class="flex flex-col items-center min-w-[90px]">
+       <img alt="RRR: Telugu Epic album cover" class="w-[60px] h-[80px] rounded-md shadow-md" height="80" src="https://storage.googleapis.com/a1aa/image/e8d58386-fe70-45f3-9d16-9e2d61a876cb.jpg" width="60"/>
+       <span class="mt-2 text-xs text-center max-w-[70px] truncate">
+        RRR: Telugu Epic
+       </span>
+      </div>
+      <div class="flex flex-col items-center min-w-[90px]">
+       <img alt="Baahubali 2: The Conclusion album cover" class="w-[60px] h-[80px] rounded-md shadow-md" height="80" src="https://storage.googleapis.com/a1aa/image/c913aa24-4ead-48fc-9866-a5756ef4968f.jpg" width="60"/>
+       <span class="mt-2 text-xs text-center max-w-[70px] truncate">
+        Baahubali 2: The Conclusion
+       </span>
+      </div>
+      <div class="flex flex-col items-center min-w-[90px]">
+       <img alt="Pushpa: The Rise album cover" class="w-[60px] h-[80px] rounded-md shadow-md" height="80" src="https://storage.googleapis.com/a1aa/image/35cb23f7-8449-4707-c9f3-a0773e14f30f.jpg" width="60"/>
+       <span class="mt-2 text-xs text-center max-w-[70px] truncate">
+        Pushpa: The Rise
+       </span>
+      </div>
+      <div class="flex flex-col items-center min-w-[90px]">
+       <img alt="KGF Chapter 2: Action Drama album cover" class="w-[60px] h-[80px] rounded-md shadow-md" height="80" src="https://storage.googleapis.com/a1aa/image/a2682b8f-7b8f-4478-ee38-2cc7d8b99dae.jpg" width="60"/>
+       <span class="mt-2 text-xs text-center max-w-[70px] truncate">
+        KGF Chapter 2: Action Drama
+       </span>
+      </div>
+     </div>
+    </section>
+    <!-- Top 10 Songs -->
+    <section>
+     <h2 class="font-semibold text-lg mb-4 border-b border-gray-600 pb-1">
+      → TOP 10 Songs ...
+     </h2>
+     <div class="flex gap-6 overflow-x-auto py-1 scrollbar-thin scrollbar-thumb-gray-600 scrollbar-track-gray-900">
+      <div class="flex flex-col items-center min-w-[90px]">
+       <img alt="Mystical Magical - Benson Boone song cover" class="w-[60px] h-[80px] rounded-md shadow-md" height="80" src="https://storage.googleapis.com/a1aa/image/66ccb678-b65a-4fb9-9362-ce2c422d7d1b.jpg" width="60"/>
+       <span class="mt-2 text-xs text-center max-w-[70px] truncate">
+        Mystical Magical - Benson Boone
+       </span>
+      </div>
+      <div class="flex flex-col items-center min-w-[90px]">
+       <img alt="Ordinary - Alex Warren song cover" class="w-[60px] h-[80px] rounded-md shadow-md" height="80" src="https://storage.googleapis.com/a1aa/image/6865b9f7-d1da-45f0-355d-9cc7ef2ed033.jpg" width="60"/>
+       <span class="mt-2 text-xs text-center max-w-[70px] truncate">
+        Ordinary - Alex Warren
+       </span>
+      </div>
+      <div class="flex flex-col items-center min-w-[90px]">
+       <img alt="Night Changes - One Direction song cover" class="w-[60px] h-[80px] rounded-md shadow-md" height="80" src="https://storage.googleapis.com/a1aa/image/c5da761c-1e54-4582-6fb2-deb1e9b7e075.jpg" width="60"/>
+       <span class="mt-2 text-xs text-center max-w-[70px] truncate">
+        Night Changes - One Direction
+       </span>
+      </div>
+      <div class="flex flex-col items-center min-w-[90px]">
+       <img alt="Save Your Tears - The Weekend &amp; Ariana Grande song cover" class="w-[60px] h-[80px] rounded-md shadow-md" height="80" src="https://storage.googleapis.com/a1aa/image/8f91f6db-3df0-45f2-4fc1-aee5a0e6d70b.jpg" width="60"/>
+       <span class="mt-2 text-xs text-center max-w-[70px] truncate">
+        Save Your Tears - The Weekend &amp; Ariana Grande
+       </span>
+      </div>
+      <div class="flex flex-col items-center min-w-[90px]">
+       <img alt="Lover - Shawn &amp; Taylor song cover" class="w-[60px] h-[80px] rounded-md shadow-md" height="80" src="https://storage.googleapis.com/a1aa/image/b120f970-1b23-4e8b-9cf6-72e35a868c56.jpg" width="60"/>
+       <span class="mt-2 text-xs text-center max-w-[70px] truncate">
+        Lover - Shawn &amp; Taylor
+       </span>
+      </div>
+      <div class="flex flex-col items-center min-w-[90px]">
+       <img alt="Dandelions - Ruth B song cover" class="w-[60px] h-[80px] rounded-md shadow-md" height="80" src="https://storage.googleapis.com/a1aa/image/1aaf30dc-aa8e-47da-779b-92b9dd213bcc.jpg" width="60"/>
+       <span class="mt-2 text-xs text-center max-w-[70px] truncate">
+        Dandelions - Ruth B
+       </span>
+      </div>
+      <div class="flex flex-col items-center min-w-[90px]">
+       <img alt="Pretty's on the Inside - Chloe Adams song cover" class="w-[60px] h-[80px] rounded-md shadow-md" height="80" src="https://storage.googleapis.com/a1aa/image/319053bc-8c3f-4d27-ab28-bda2d8acd224.jpg" width="60"/>
+       <span class="mt-2 text-xs text-center max-w-[70px] truncate">
+        Pretty's on the Inside - Chloe Adams
+       </span>
+      </div>
+      <div class="flex flex-col items-center min-w-[90px]">
+       <img alt="Leyla - Mesto song cover" class="w-[60px] h-[80px] rounded-md shadow-md" height="80" src="https://storage.googleapis.com/a1aa/image/2101d61b-bfa9-43b3-0edc-41015d7095eb.jpg" width="60"/>
+       <span class="mt-2 text-xs text-center max-w-[70px] truncate">
+        Leyla - Mesto
+       </span>
+      </div>
+      <div class="flex flex-col items-center min-w-[90px]">
+       <img alt="Attention - Charlie Puth song cover" class="w-[60px] h-[80px] rounded-md shadow-md" height="80" src="https://storage.googleapis.com/a1aa/image/f52b16a5-9764-4398-f1d8-59b6b88eff61.jpg" width="60"/>
+       <span class="mt-2 text-xs text-center max-w-[70px] truncate">
+        Attention - Charlie Puth
+       </span>
+      </div>
+      <div class="flex flex-col items-center min-w-[90px]">
+       <img alt="Moral of the Story - Ashe song cover" class="w-[60px] h-[80px] rounded-md shadow-md" height="80" src="https://storage.googleapis.com/a1aa/image/3ce15a09-131f-4735-8246-bd2528e0ff13.jpg" width="60"/>
+       <span class="mt-2 text-xs text-center max-w-[70px] truncate">
+        Moral of the Story - Ashe
+       </span>
+      </div>
+     </div>
+    </section>
+    <!-- Top 10 Artist -->
+    <section>
+     <h2 class="font-semibold text-lg mb-4 border-b border-gray-600 pb-1">
+      → Top 10 Artist ...
+     </h2>
+     <div class="flex gap-6 overflow-x-auto py-1 scrollbar-thin scrollbar-thumb-gray-600 scrollbar-track-gray-900">
+      <div class="flex flex-col items-center min-w-[90px]">
+       <img alt="Benson Boone artist cover" class="w-[60px] h-[80px] rounded-md shadow-md object-cover" height="80" src="https://storage.googleapis.com/a1aa/image/8eebafa1-8400-4d31-5449-b3239eeef5aa.jpg" width="60"/>
+       <span class="mt-2 text-xs text-center max-w-[70px] truncate">
+        Benson Boone
+       </span>
+      </div>
+      <div class="flex flex-col items-center min-w-[90px]">
+       <img alt="The Weekend artist cover" class="w-[60px] h-[80px] rounded-md shadow-md object-cover" height="80" src="https://storage.googleapis.com/a1aa/image/d1532848-c235-43b0-18ce-1cd365342f26.jpg" width="60"/>
+       <span class="mt-2 text-xs text-center max-w-[70px] truncate">
+        The Weekend
+       </span>
+      </div>
+      <div class="flex flex-col items-center min-w-[90px]">
+       <img alt="Taylor Swift artist cover" class="w-[60px] h-[80px] rounded-md shadow-md object-cover" height="80" src="https://storage.googleapis.com/a1aa/image/667ea48f-72dd-4851-c29a-fa3e6979650b.jpg" width="60"/>
+       <span class="mt-2 text-xs text-center max-w-[70px] truncate">
+        Taylor Swift
+       </span>
+      </div>
+      <div class="flex flex-col items-center min-w-[90px]">
+       <img alt="A.R. Rahman artist cover" class="w-[60px] h-[80px] rounded-md shadow-md object-cover" height="80" src="https://storage.googleapis.com/a1aa/image/ed8e842c-cdeb-406c-4204-7050c9f52e97.jpg" width="60"/>
+       <span class="mt-2 text-xs text-center max-w-[70px] truncate">
+        A.R. Rahman
+       </span>
+      </div>
+      <div class="flex flex-col items-center min-w-[90px]">
+       <img alt="Illayaraja artist cover" class="w-[60px] h-[80px] rounded-md shadow-md object-cover" height="80" src="https://storage.googleapis.com/a1aa/image/24fc07a9-56af-4737-c069-461599647ddb.jpg" width="60"/>
+       <span class="mt-2 text-xs text-center max-w-[70px] truncate">
+        Illayaraja
+       </span>
+      </div>
+      <div class="flex flex-col items-center min-w-[90px]">
+       <img alt="Anirudh Ravichander artist cover" class="w-[60px] h-[80px] rounded-md shadow-md object-cover" height="80" src="https://storage.googleapis.com/a1aa/image/155109b5-8eb5-4b33-a462-7d6bd4a67289.jpg" width="60"/>
+       <span class="mt-2 text-xs text-center max-w-[70px] truncate">
+        Anirudh Ravichander
+       </span>
+      </div>
+      <div class="flex flex-col items-center min-w-[90px]">
+       <img alt="Ariana Grande artist cover" class="w-[60px] h-[80px] rounded-md shadow-md object-cover" height="80" src="https://storage.googleapis.com/a1aa/image/10cd6f7c-70db-470e-90b4-e370820d9b6e.jpg" width="60"/>
+       <span class="mt-2 text-xs text-center max-w-[70px] truncate">
+        Ariana Grande
+       </span>
+      </div>
+      <div class="flex flex-col items-center min-w-[90px]">
+       <img alt="Shawn Mendes artist cover" class="w-[60px] h-[80px] rounded-md shadow-md object-cover" height="80" src="https://storage.googleapis.com/a1aa/image/10df7af2-d640-4366-053c-880b4d38a452.jpg" width="60"/>
+       <span class="mt-2 text-xs text-center max-w-[70px] truncate">
+        Shawn Mendes
+       </span>
+      </div>
+      <div class="flex flex-col items-center min-w-[90px]">
+       <img alt="Imagine Dragons artist cover" class="w-[60px] h-[80px] rounded-md shadow-md object-cover" height="80" src="https://storage.googleapis.com/a1aa/image/22f8f4e2-fbf2-4fa1-0e8c-f519eced88dc.jpg" width="60"/>
+       <span class="mt-2 text-xs text-center max-w-[70px] truncate">
+        Imagine Dragons
+       </span>
+      </div>
+      <div class="flex flex-col items-center min-w-[90px]">
+       <img alt="Alex Warren artist cover" class="w-[60px] h-[80px] rounded-md shadow-md object-cover" height="80" src="https://storage.googleapis.com/a1aa/image/ad37a70d-0c50-4c66-ce32-c7240cbc088a.jpg" width="60"/>
+       <span class="mt-2 text-xs text-center max-w-[70px] truncate">
+        Alex Warren
+       </span>
+      </div>
+     </div>
+    </section>
+   </main>
+  </div>
+ </body>
+</html>
