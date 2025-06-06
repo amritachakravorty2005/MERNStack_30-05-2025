@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>Photo Gallery</title>
+		<script src="https://cdn.tailwindcss.com"></script>
+		<style>
+			.rounded-top-bar {
+				border-radius: 12px 12px 0 0;
+			}
+	 	</style>
+	</head>
+	<body class="bg-gray-200 min-h-screen flex flex-col items-center p-4">
+		<!-- Header -->
+		<header class="w-full max-w-4xl bg-blue-600 text-white rounded-top-bar border border-blue-800 py-3 shadow-md">
+			<h1 class="text-center font-bold text-2xl tracking-wide">My Photo Gallery</h1>
+		</header>
+
+		<!-- Main Content -->
+		<main class="w-full max-w-4xl bg-white border border-blue-800 p-5 shadow-md">
+			<p class="text-center text-gray-700 mb-4">Saved in Laptop</p>
+			<div class="grid grid-cols-2 sm:grid-cols-3 gap-4">
+				<div class="bg-yellow-100 p-1 rounded-md border border-yellow-300">
+					<img src="https://storage.googleapis.com/a1aa/image/00422730-617b-496f-95aa-059d3037582f.jpg" alt="Pinwheel" class="w-full h-32 object-cover rounded" />
+				</div>
+				<div class="bg-green-100 p-1 rounded-md border border-green-300">
+					<img src="https://storage.googleapis.com/a1aa/image/f1e15cac-ec2f-4c14-c79a-bfc1adabd58f.jpg" alt="Meeting" class="w-full h-32 object-cover rounded" />
+				</div>
+				<div class="bg-pink-100 p-1 rounded-md border border-pink-300">
+					<img src="https://storage.googleapis.com/a1aa/image/b76bb63e-f083-4ad7-fe95-156b95e24b35.jpg" alt="Feathers" class="w-full h-32 object-cover rounded" />
+				</div>
+				<div class="bg-purple-100 p-1 rounded-md border border-purple-300">
+					<img src="https://storage.googleapis.com/a1aa/image/2ad76535-7f09-48a3-5111-3b522f4104e0.jpg" alt="Lights" class="w-full h-32 object-cover rounded" />
+				</div>
+				<div class="bg-blue-100 p-1 rounded-md border border-blue-300">
+					<img src="https://storage.googleapis.com/a1aa/image/51c970e2-737a-424f-facd-0ab172b31d1b.jpg" alt="Mountains" class="w-full h-32 object-cover rounded" />
+				</div>
+				<div class="bg-red-100 p-1 rounded-md border border-red-300">
+					<img src="https://storage.googleapis.com/a1aa/image/f8ef2dfd-16bb-4a9a-7684-1bc98f27923e.jpg" alt="Leaves" class="w-full h-32 object-cover rounded" />
+				</div>
+				<div class="bg-indigo-100 p-1 rounded-md border border-indigo-300">
+					<img src="https://storage.googleapis.com/a1aa/image/6fdc6dc6-21a1-49f5-fb6a-da9023f1324a.jpg" alt="Sunset" class="w-full h-32 object-cover rounded" />
+				</div>
+				<div class="bg-gray-100 p-1 rounded-md border border-gray-300">
+					<img src="https://storage.googleapis.com/a1aa/image/64d51004-fe41-4438-c9e8-32c7d1dae439.jpg" alt="Ocean" class="w-full h-32 object-cover rounded" />
+				</div>
+			</div>
+		</main>
+	</body>
+</html>
